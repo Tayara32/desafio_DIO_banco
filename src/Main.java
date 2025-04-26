@@ -3,8 +3,8 @@ public class Main {
 
         Banco banco = new Banco();
 
-        Cliente cliente = new Cliente();
-        cliente.setNome("Maria");
+        Cliente cliente = new Cliente("Maria", "00044466614", "963258741", "email@email.com");
+
 
         Conta cc = new ContaCorrente(cliente);
         banco.adicionaConta(cc);
